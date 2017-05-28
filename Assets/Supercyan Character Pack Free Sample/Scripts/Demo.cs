@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Demo : MonoBehaviour {
 
-    private readonly string[] m_animations = { "Pickup","Wave" };
+    private readonly string[] m_animations = { "Badge","Here !" };
     private Animator[] m_animators;
     [SerializeField] private CameraLogic m_cameraLogic;
 
@@ -71,13 +71,13 @@ public class Demo : MonoBehaviour {
 
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
-        GUILayout.Label("Shift gauche: présenter badge");
+        GUILayout.Label("F : présenter badge");
         GUILayout.FlexibleSpace();
         GUILayout.EndHorizontal();
 
         GUILayout.BeginHorizontal();
         GUILayout.FlexibleSpace();
-        GUILayout.Label("Espace: Saut");
+        GUILayout.Label("Espace : Saut");
         GUILayout.FlexibleSpace();
         GUILayout.EndHorizontal();
 

@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/DemoFSM.unity
+  isLoaded: 1
+  isActive: 1
